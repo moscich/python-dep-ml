@@ -41,6 +41,7 @@ RUN apk add libevent-dev
 RUN apk add linux-headers
 
 RUN pip install --user psutil
+RUN pip install --user scikit-optimize
 
 ENV PYTHONPATH=/app/
 ENV PYTHONUNBUFFERED=0
